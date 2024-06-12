@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<excludes>
+		<pattern>/api</pattern>
+		<pattern>/api/*</pattern>
+	</excludes>
+	<decorator name="dang_nhap" page="dang_nhap.jsp">
+		<pattern>/dang-nhap</pattern>
+		<pattern>/dang-nhap/*</pattern>
+	</decorator>
+	<decorator name="khach_hang" page="khach_hang.jsp">
+		<pattern>/khach-hang</pattern>
+		<pattern>/khach-hang/*</pattern>
+	</decorator>
+	<decorator name="nhan_vien" page="nhan_vien.jsp">
+		<pattern>/nhan-vien</pattern>
+		<pattern>/nhan-vien/*</pattern>
+	</decorator>
+	<decorator name="index" page="trang_chu.jsp">
+		<pattern>/</pattern>
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
